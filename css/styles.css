@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|Metal+Mania&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Metal Mania', cursive;
+}
+
+body{
+   
+    background: rgb(202, 233, 202);
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+    
+
+}
+
+header{
+    display: flex;
+    background-image: url(/img/elephant.jpg);
+    height: 400px;
+    width: 100%;
+    color: white;
+    
+}
+
+.ingresar{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+
+
+
+.navegador{
+    
+    height: 30px;
+    width: 100%;
+    
+
+}
+
+.menu{
+
+position: absolute;
+display: flex;
+top: 0%;
+left: 0%;
+margin: 0;
+padding: 15px;
+}
+
+.menu li{
+    padding: 10px;
+    list-style: none;
+    color: white;
+
+}
+
+.link_menu{
+    color: black;
+}
+
+.contenido{
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 300px;
+    box-sizing: border-box;
+    
+}
+.articulo{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 60%;
+    text-align: justify;
+
+}
+
+.principal{
+    overflow: hidden;
+    width: 100%;
+    margin: 0%
+
+}
+
+.banner {
+    margin: 0;
+    display: flex;
+    width: 500%;
+    list-style: none;
+    padding: 0;
+    animation: cambio 50s infinite alternate linear;
+    
+ 
+}
+
+.banner_item{
+    padding: 0;
+    width: 100%;
+    
+
+}
+
+.banner_img{
+    width: 100%;
+    height: 300px;
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+@keyframes cambio {
+    0% {margin-left:0; }
+    15% {margin-left:0; }
+
+    20% {margin-left:-100%; }
+    35% {margin-left:-100%; }
+
+    40% {margin-left:-200%; }
+    55% {margin-left:-200%; }
+
+    60% {margin-left:-300%; }
+    75% {margin-left:-300%; }
+
+    80% {margin-left:-400%; }
+    100% {margin-left:-400%; }
+
+
+
+    
+}
+
+
+
+.aside{
+    position: absolute;
+    top: 450px;
+    right: 0px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.img_aside{
+    width: 100%;
+    height: 180px;
+    padding: 5px
+}
+
+aside h2{
+    text-align: center;
+}
+
+.contenedor{
+    width: 70%;
+    box-sizing: border-box;
+    display: inline-flex;
+
+}
+
+.bloques{
+    display: block;
+}
+
+.img_titulo{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 12%;
+    color: yellow;
+ 
+
+}
+.parrafo{
+    width: 300%;
+    position: absolute;
+    
+
+}
+
+.informacion{
+    position: absolute;
+    left: 35%;
+    top: 150%;
+    width: 30%;
+    text-align: justify;
+    visibility: hidden;
+}
+
+#parrafos{
+    margin-bottom: 100px;
+    
+
+}
+
+#parrafos1{
+    margin-bottom: 100px
+}
+
+#parrafos2{
+    margin-bottom: 150px
+}
+
+.bloque_parrafo {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 5%;
+    color: yellow;
+
+    
+
+
+    
+}
+
+.titulo{
+    position: absolute;
+    top: 20%
+
+}
+
+.subtitulo{
+    position: absolute;
+    top: 30%;
+
+}
+
+.caja{
+    width: 31%;
+    border: solid black;
+}
+
+
+.img_bloques{
+    top: 0;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    
+    
+    
+
+}
+
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.social{
+    color: white;
+    background: black;
+    font-size: 30px
+}
+
+/* Hover*/
+
+.bloques .img_titulo:hover {
+    background: black;
+    cursor: pointer;
+
+
+}
